@@ -1,2 +1,2 @@
 # About-Me
-About myself :D
+About myself
