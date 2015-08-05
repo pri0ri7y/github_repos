@@ -1,0 +1,74 @@
+{
+	"PY":{
+	   "Heading":"Python",
+	   "Content":[
+			 {
+			   "Title":"Website Ping Tool",
+			   "SubTitle":"PY100",
+			   "Content":"A simple tool to ping the websites and get back the responses",
+			   "Hyperlink":""		 
+			 }			  	   
+	   ]},
+
+    "ARCPY":{ 
+	   "Heading":"ArcPy Module",
+	   "Content":[
+			 {
+			   "Title":"Geocoder & Elevation from Google Maps",
+			   "SubTitle":"ARCPY100",
+			   "Content":"The tool is designed to obtain elevation , Geocoder information for the given places in a .CSV file from google maps web services and create corresponding features in ArcGIS.",
+			   "Hyperlink":""		 
+			 },
+			 {
+			   "Title":"Extending ArcGIS Desktop's Web Services functionality",
+			   "SubTitle":"ARCPY101",
+			   "Content":"The tool is primarily used to leverage ArcPy module and create web services that could be consumed via XMLHttp request or AJAX calls.",
+			   "Hyperlink":""		 
+			 },
+			 {
+			   "Title":"Network creator",
+			   "SubTitle":"ARCPY102",
+			   "Content":"The tool's functionality is to create network with the given point data (in excel file). It is basically used to create electrical network for the given High Tension lines in a sequential basis.",
+			   "Hyperlink":""		 
+			 }			  	  
+	   ]},
+
+	"JSAPI":{
+	   "Heading":"Esri Javascript API",
+	   "Content":[
+			 {
+			   "Title":"Realtime Data Viewer",
+			   "SubTitle":"JSAPI100",
+			   "Content":"Extended from the Configurable Map Viewer Project, this viewer is used to consume real time spatial data [ in JSON format ] and display them.",
+			   "Hyperlink":""		 
+			 },
+			 {
+			   "Title":"Map Viewer for ShapeFiles",
+			   "SubTitle":"JSAPI101",
+			   "Content":"Extended from the Configurable Map Viewer Project, this viewer is used to display shapefiles by leveraging ArcGIS Server's Feature generation request , thereby evading the dependencies on any custom ArcGIS server's REST services.",
+			   "Hyperlink":""		 
+			 } 	   
+	   ]},
+
+	"GMAPS":{
+	   "Heading":"Google Maps API",
+	   "Content":[
+			 {
+			   "Title":"Google Maps Viewer",
+			   "SubTitle":"GMAPS100",
+			   "Content":"Viewer for Google Maps. [ In the process of making it completely configurable  :) ]",
+			   "Hyperlink":""		 
+			 }			  	   
+	   ]},
+
+	"DA":{
+	   "Heading":"Data Analytics",
+	   "Content":[
+			 {
+			   "Title":"Still Working on it :D",
+			   "SubTitle":"",
+			   "Content":"",
+			   "Hyperlink":""		 
+			 } 	   
+	   ]}
+}

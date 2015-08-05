@@ -23,9 +23,21 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- jQuery -->
+    <script src="js/library/jquery.js"></script>
+    <script>
+         //paste this code under head tag or in a seperate js file.
+         // Wait for window load
+         $(window).load(function () {
+             // Animate loader off screen
+             $(".se-pre-con").fadeOut("slow");
+
+         });
+    </script>
 </head>
 
 <body>
+    <div class="se-pre-con"></div>  <!-- Loader -->
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -64,48 +76,15 @@
     <div class="container">     
         <!-- Introduction Row -->
         <div class="row">
-            <div class="col-lg-10">
-                <h1 class="page-header">About [me]
-                    <small style="font-size: x-large;font-weight: bold;font-family: cursive;">I code therefore I am !</small>
-                </h1>
-                <p style="font-family: cursive;font-size: initial;">
-                  Hey ! My name is Jai. I'm a Developer, Geoinformatics engineer, javascript & python fanatic, arcpy fanboy and a NetSec enthusiast.<br />
-                  Other than coding, you can find me playing chess (amature though :P), reading and updating myself on global events, geopolitics, history and the cultures of the world.</p>
-            </div>
-        </div>
-
-        <!-- Repository Row -->
-        <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Projects</h2>
+                <h1 id="RepositoryHeader" class="page-header" style="font-family: cursive;font-style: italic; color:black;">                     
+                </h1>              
             </div>
-
-            <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center customImage" src="images/python.jpg" alt="" onclick="appIndex.repositoryOnClick('PY');">
-                <h3>Python</h3>                           
-            </div>
-
-            <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center customImage" src="images/esri.JPG" alt="" onclick="appIndex.repositoryOnClick('JSAPI');">
-                <h3>Esri JsAPI </h3>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center customImage" src="images/google-maps.png" alt="" onclick="appIndex.repositoryOnClick('GMAPS');">
-                <h3>Google Maps API</h3>                              
-            </div>
-
-            <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center customImage" src="images/Analytics.gif" alt="" onclick="appIndex.repositoryOnClick('DA');">
-                <h3>Data Analytics</h3>                           
-            </div>
-
-            <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center customImage" src="images/python.jpg" alt="" onclick="appIndex.repositoryOnClick('ARCPY');">
-                <h3>ArcPy</h3>                             
-            </div>  
         </div>
-        <hr>
+
+        <!-- Content Row -->
+        <div id="RepositoryMain">      
+        </div>
 
         <!-- Footer -->
         <footer>
@@ -124,13 +103,11 @@
     </div>
     <!-- /.container -->
 
-    <!-- jQuery -->
-    <script src="js/library/jquery.js"></script>
+    
     <!-- Bootstrap Core JavaScript -->
     <script src="js/library/bootstrap.min.js"></script>
-    <!-- Custom js files -->
-    <script src="js/index.js" type="text/javascript"></script>
-
+    <!-- Custom js file -->
+    <script src="js/content.js" type="text/javascript"></script>
 
 </body>
 
