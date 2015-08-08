@@ -20,7 +20,7 @@
 			   "Hyperlink":""		 
 			 },
 			 {
-			   "Title":"Extending ArcGIS Desktop's Web Services functionality",
+			   "Title":"ArcGIS Desktop , Web Services functionality",
 			   "SubTitle":"ARCPY101",
 			   "Content":"The tool is primarily used to leverage ArcPy module and create web services that could be consumed via XMLHttp request or AJAX calls.",
 			   "Hyperlink":""		 
