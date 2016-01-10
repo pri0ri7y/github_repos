@@ -25,11 +25,17 @@ appContent.loadContents = function () {
     for (var i = 0; i < appContent.JsonData[appContent.repoId]['Content'].length; i++) {
 
         var elements = appContent.JsonData[appContent.repoId]['Content'][i];
+
+        var demo = "";
+
+        if (elements['Isdemo']) { demo = '<a href="'+ elements['Hyperlink'] + '" target="_blank"><img class="img-responsive" src="images/demo.png" ></a>'; }
+
         var header = '<div id="' + elements['SubTitle'] + '"> <div class="row"> <div class="col-lg-4">'
                      + '<h3 class="page-header" style="font-family: cursive;font-style: italic; color: #777;font-weight: bolder;">'
                      + elements['Title'] + '<br/> '
-                     + '<small style="font-family: cursive;font-style: italic; color: #585858;">'
-                     + elements['SubTitle']
+                     + '<small style="font-family:cursive;font-style:italic;color:#585858;cursor:pointer;">'
+                     + '<a href="' + elements['Hyperlink'] + '" target="_blank">' + elements['SubTitle'] + '</a>'
+                     + demo
                      + '</small></h2></div></div>';
 
 

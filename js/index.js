@@ -3,7 +3,7 @@
 // On Repository image click handler
 appIndex.repositoryOnClick = function (repoId) {
     sessionStorage.repoId = repoId;
-    window.location.assign("Content.html");
+    window.location.assign("content.html");
 }
 
 
