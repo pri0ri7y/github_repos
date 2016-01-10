@@ -28,7 +28,7 @@ appContent.loadContents = function () {
 
         var demo = "";
 
-        if (elements['Isdemo']) { demo = '<a href="'+ elements['Hyperlink'] + '" target="_blank"><img class="img-responsive" src="images/demo.png" ></a>'; }
+        if (elements['Isdemo']) { demo = '<a href="' + elements['Demo'] + '" target="_blank"><img class="img-responsive" src="images/demo.png" ></a>'; }
 
         var header = '<div id="' + elements['SubTitle'] + '"> <div class="row"> <div class="col-lg-4">'
                      + '<h3 class="page-header" style="font-family: cursive;font-style: italic; color: #777;font-weight: bolder;">'

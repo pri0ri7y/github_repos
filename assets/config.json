@@ -64,9 +64,9 @@
 			   "Title":"Google Maps Viewer",
 			   "SubTitle":"GMAPS100",
 			   "Content":"A configurable map viewer for Google Maps API.",
-			   "Hyperlink":"http://pri0ri7y.github.io/GMAPS100/#",
+			   "Hyperlink":"https://github.com/pri0ri7y/GMAPS100",
 			   "Isdemo":true,
-			   "Demo":""		 
+			   "Demo":"http://pri0ri7y.github.io/GMAPS100/#"		 
 			 }			  	   
 	   ]}
 }
